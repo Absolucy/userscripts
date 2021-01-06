@@ -1,7 +1,7 @@
 # Aspen's userscripts
 
- - [Aternos Anti-Anti-Adblock](https://github.com/aspenluxxxy/scripts/raw/dev/scripts/AternosAntiAntiAdblock.user.js) - Get rid of Aternos' annoying full-page anti-adblock banner.
- - [GTFOTrending](https://github.com/aspenluxxxy/scripts/raw/dev/scripts/GTFOTrending.user.js) - Filters out things related to Minecraft youtubers (especially Dream SMP) from the twitter.com trending sidebar.
+ - [Aternos Anti-Anti-Adblock](https://github.com/aspenluxxxy/userscripts/raw/dev/scripts/AternosAntiAntiAdblock.user.js) - Get rid of Aternos' annoying full-page anti-adblock banner.
+ - [GTFOTrending](https://github.com/aspenluxxxy/userscripts/raw/dev/scripts/GTFOTrending.user.js) - Filters out things related to Minecraft youtubers (especially Dream SMP) from the twitter.com trending sidebar.
 
 ## How to use
 

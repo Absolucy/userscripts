@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        GTFOTrending
 // @description Nuke shitty Dream SMP stuff from Twitter's trending sidebar.
-// @version     1.0.1
+// @version     1.0.2
 // @author      aspen
 // @copyright   2021, aspen (aspenuwu.me)
 // @license     BSD-3-Clause; https://github.com/aspenluxxxy/userscripts/blob/master/LICENSE.md
 // @updateURL   https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/GTFOTrending.user.js
 // @downloadURL https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/GTFOTrending.user.js
 // @source      https://github.com/aspenluxxxy/userscripts
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/aspenluxxxy
 // @match       *://twitter.com/*
 // @match       *://*.twitter.com/*
 // @grant       none

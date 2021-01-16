@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        GTFOTrending
 // @description Nuke shitty Dream SMP stuff from Twitter's trending sidebar.
-// @version     1.0.2
+// @version     1.0.3
 // @author      aspen
 // @copyright   2021, aspen (aspenuwu.me)
 // @license     BSD-3-Clause; https://github.com/aspenluxxxy/userscripts/blob/master/LICENSE.md
@@ -16,7 +16,7 @@
 // @meta        If you disagree with that, you have every right to fuck off and not use my scripts :)
 // ==/UserScript==
 
-const minecraft_tuber_regex = /\b(dream|technoblade|techno|dreamsmp|georgenotfound|minecraft)\b/gim;
+const minecraft_tuber_regex = /\b(dream|technoblade|techno|dreamsmp|georgenotfound|minecraft|epicsmp|epic smp|dream smp)\b/gim;
 
 setInterval(function () {
 	let trending = document.querySelector(

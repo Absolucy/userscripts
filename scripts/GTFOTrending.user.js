@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        GTFOTrending
-// @description Nuke shitty Dream SMP stuff from Twitter's trending sidebar.
-// @version     1.0.3
+// @description Nuke annoying trends, such as celebrity garbage and Dream stan dumbassery, from the Twitter trending sidebar.
+// @version     1.1.0
 // @author      aspen
 // @copyright   2021, aspen (aspenuwu.me)
 // @license     BSD-3-Clause; https://github.com/aspenluxxxy/userscripts/blob/master/LICENSE.md
@@ -16,7 +16,8 @@
 // @meta        If you disagree with that, you have every right to fuck off and not use my scripts :)
 // ==/UserScript==
 
-const minecraft_tuber_regex = /\b(dream|technoblade|techno|dreamsmp|georgenotfound|minecraft|epicsmp|epic smp|dream smp)\b/gim;
+const description_filter_regex = /\b(dream|technoblade|techno|dreamsmp|georgenotfound|minecraft|epicsmp|epic smp|dream smp)\b/gim;
+const topic_regex = /\b(celebrity)\b/gim;
 
 setInterval(function () {
 	let trending = document.querySelector(
@@ -28,15 +29,20 @@ setInterval(function () {
 			let inner_div = node.firstChild?.firstChild;
 			if (inner_div) {
 				let target;
+				let topic = inner_div.children[0]?.children[0]?.children[0];
+
 				if (inner_div.children.length === 5) {
 					target = inner_div.children[2];
 				} else if (inner_div.children.length === 4) {
 					target = inner_div.children[1];
+				} else {
+					target = inner_div;
 				}
 
 				if (
-					target?.textContent &&
-					minecraft_tuber_regex.test(target.textContent)
+					(target?.textContent && description_filter_regex.test(target.textContent))
+					||
+					(topic?.textContent && topic_regex.test(topic.textContent))
 				) {
 					console.log("NUKING: " + target.textContent.toString());
 					node.remove();

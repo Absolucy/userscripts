@@ -17,7 +17,7 @@
 // ==/UserScript==
 
 const description_filter_regex = /\b(dream|technoblade|techno|dreamsmp|georgenotfound|minecraft|epicsmp|epic smp|dream smp)\b/gim;
-const topic_regex = /\b(celebrity)\b/gim;
+const topic_regex = /\b(celebrity|k-pop)\b/gim;
 
 setInterval(function () {
 	let trending = document.querySelector(

@@ -26,7 +26,7 @@ setInterval(function () {
 				p = p.parentElement;
 			}
 			if (p.tagName.toLowerCase() === "article") {
-				console.log("NUKING TOPIC: " + node.textContent);
+				console.log("NUKING TOPIC: " + p.textContent.toString());
 				p.remove();
 			}
 		}

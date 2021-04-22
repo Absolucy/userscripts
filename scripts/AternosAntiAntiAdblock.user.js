@@ -4,7 +4,7 @@
 // @version     1.0.2
 // @author      aspen
 // @copyright   2021, aspen (aspenuwu.me)
-// @license     BSD-3-Clause; https://github.com/aspenluxxxy/userscripts/blob/master/LICENSE.md
+// @license     BSD-3-Clause; https://github.com/aspenluxxxy/userscripts/blob/dev/LICENSE.md
 // @downloadURL https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
 // @updateURL   https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
 // @source      https://github.com/aspenluxxxy/userscripts

@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        Aternos anti-anti adblock
 // @description Kills Aternos' annoying full-page + timeout anti-adblock.
-// @version     1.0.2
-// @author      aspen
-// @copyright   2021, aspen (aspenuwu.me)
-// @license     BSD-3-Clause; https://github.com/aspenluxxxy/userscripts/blob/dev/LICENSE.md
-// @downloadURL https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
-// @updateURL   https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
-// @source      https://github.com/aspenluxxxy/userscripts
-// @namespace   https://github.com/aspenluxxxy
+// @version     1.0.3
+// @author      Lucy
+// @copyright   2021, Lucy (absolucy.moe)
+// @license     BSD-3-Clause; https://github.com/Absolucy/userscripts/blob/dev/LICENSE.md
+// @downloadURL https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
+// @updateURL   https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
+// @source      https://github.com/Absolucy/userscripts
+// @namespace   https://github.com/Absolucy
 // @match       *://aternos.org/*
 // @grant       none
 // @inject-into page

@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        GTFOTrending
 // @description Nuke annoying trends, such as celebrity garbage and Dream stan dumbassery, from the Twitter trending sidebar.
-// @version     1.1.1
-// @author      aspen
-// @copyright   2021, aspen (aspenuwu.me)
-// @license     BSD-3-Clause; https://github.com/aspenluxxxy/userscripts/blob/dev/LICENSE.md
-// @updateURL   https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/GTFOTrending.user.js
-// @downloadURL https://cdn.jsdelivr.net/gh/aspenluxxxy/userscripts@dev/scripts/GTFOTrending.user.js
-// @source      https://github.com/aspenluxxxy/userscripts
-// @namespace   https://github.com/aspenluxxxy
+// @version     1.1.2
+// @author      Lucy
+// @copyright   2021, Lucy (absolucy.moe)
+// @license     BSD-3-Clause; https://github.com/Absolucy/userscripts/blob/dev/LICENSE.md
+// @updateURL   https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/GTFOTrending.user.js
+// @downloadURL https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/GTFOTrending.user.js
+// @source      https://github.com/Absolucy/userscripts
+// @namespace   https://github.com/Absolucy
 // @match       *://twitter.com/*
 // @match       *://*.twitter.com/*
 // @grant       none

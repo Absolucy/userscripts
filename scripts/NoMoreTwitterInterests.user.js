@@ -20,8 +20,7 @@ const TOPIC_PATH="M18.265 3.314c-3.45-3.45-9.07-3.45-12.52 0-3.45 3.44-3.45 9.06
 
 setInterval(function () {
 	let elements = document.querySelectorAll('svg.r-1janqcz.r-10ptun7');
-	for (e in elements) {
-		let node = elements[e]
+  elements.forEach(function (node) {
 		if (node?.querySelector('path')?.getAttribute("d") === TOPIC_PATH) {
 			var p = node.parentElement;
 			while (p.parentElement != null && p.tagName.toLowerCase() !== "article") {
@@ -32,5 +31,5 @@ setInterval(function () {
 				p.remove();
 			}
 		}
-	}
+	});
 }, 500);

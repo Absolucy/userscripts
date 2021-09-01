@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        NoMoreTwitterInterests
 // @description Gets rid of the stupid "interests" on your Twitter for Web timeline (the "Follow Topic" crap)
-// @version     1.0.2
+// @version     1.0.3
 // @author      Lucy
 // @copyright   2021, Lucy (absolucy.moe)
 // @license     BSD-3-Clause; https://github.com/Absolucy/userscripts/blob/dev/LICENSE.md

@@ -1,8 +1,10 @@
 # Lucy's userscripts
 
- - [Aternos Anti-Anti-Adblock](https://github.com/Absolucy/userscripts/raw/dev/scripts/AternosAntiAntiAdblock.user.js) - Get rid of Aternos' annoying full-page anti-adblock banner.
+ - ~~[Aternos Anti-Anti-Adblock](https://github.com/Absolucy/userscripts/raw/dev/scripts/AternosAntiAntiAdblock.user.js) - Get rid of Aternos' annoying full-page anti-adblock banner.~~
+   - This script is now **deprecated**, as it no longer works
  - [GTFOTrending](https://github.com/Absolucy/userscripts/raw/dev/scripts/GTFOTrending.user.js) - Configurably filtering for topics and descriptions on Twitter for Web's trending sidebar
- - [NoMoreTwitterInterests](https://github.com/Absolucy/userscripts/raw/dev/scripts/NoMoreTwitterInterests.user.js) - Gets rid of the stupid "interests" on your Twitter for Web timeline (the "Follow Topic" crap)
+ - ~~[NoMoreTwitterInterests](https://github.com/Absolucy/userscripts/raw/dev/scripts/NoMoreTwitterInterests.user.js) - Gets rid of the stupid "interests" on your Twitter for Web timeline (the "Follow Topic" crap)~~
+   - This script is now **deprecated**, as [Tweak New Twitter](https://github.com/insin/tweak-new-twitter) does everything it does and more
 
 ## How to use
 

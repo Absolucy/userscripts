@@ -3,7 +3,7 @@
 // @description Kills Aternos' annoying full-page + timeout anti-adblock.
 // @version     1.0.3
 // @author      Lucy
-// @copyright   2021, Lucy (absolucy.moe)
+// @copyright   2022, Lucy (absolucy.moe)
 // @license     BSD-3-Clause; https://github.com/Absolucy/userscripts/blob/dev/LICENSE.md
 // @downloadURL https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
 // @updateURL   https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/AternosAntiAntiAdblock.user.js
@@ -17,7 +17,8 @@
 // @meta        If you disagree with that, you have every right to fuck off and not use my scripts :)
 // ==/UserScript==
 
-const regex = /function ([A-Za-z]+)\(\)\s+\{\s+([A-Za-z]+)\s+\=\s*true\s*;\s*([A-Za-z]+)\(\)\s*;\s*}\s*let\s*[a-zA-Z],\s*[a-zA-Z]\s*;/;
+const regex =
+	/function ([A-Za-z]+)\(\)\s+\{\s+([A-Za-z]+)\s+\=\s*true\s*;\s*([A-Za-z]+)\(\)\s*;\s*}\s*let\s*[a-zA-Z],\s*[a-zA-Z]\s*;/;
 
 (function () {
 	"use strict";

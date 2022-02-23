@@ -3,7 +3,7 @@
 // @description Nuke annoying trends, such as celebrity garbage and Dream stan dumbassery, from the Twitter trending sidebar.
 // @version     1.1.2
 // @author      Lucy
-// @copyright   2021, Lucy (absolucy.moe)
+// @copyright   2022, Lucy (absolucy.moe)
 // @license     BSD-3-Clause; https://github.com/Absolucy/userscripts/blob/dev/LICENSE.md
 // @updateURL   https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/GTFOTrending.user.js
 // @downloadURL https://cdn.jsdelivr.net/gh/Absolucy/userscripts@dev/scripts/GTFOTrending.user.js
@@ -16,7 +16,8 @@
 // @meta        If you disagree with that, you have every right to fuck off and not use my scripts :)
 // ==/UserScript==
 
-const description_filter_regex = /\b(dream|technoblade|techno|dreamsmp|georgenotfound|minecraft|epicsmp|epic smp|dream smp)\b/gim;
+const description_filter_regex =
+	/\b(dream|technoblade|techno|dreamsmp|georgenotfound|minecraft|epicsmp|epic smp|dream smp)\b/gim;
 const topic_regex = /\b(celebrity|k-pop)\b/gim;
 
 setInterval(function () {
@@ -40,8 +41,8 @@ setInterval(function () {
 				}
 
 				if (
-					(target?.textContent && description_filter_regex.test(target.textContent))
-					||
+					(target?.textContent &&
+						description_filter_regex.test(target.textContent)) ||
 					(topic?.textContent && topic_regex.test(topic.textContent))
 				) {
 					console.log("NUKING: " + target.textContent.toString());
